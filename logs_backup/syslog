@@ -1556,3 +1556,259 @@ Mar 13 11:24:40 localhost systemd[1]: Started User Manager for UID 0.
 Mar 13 11:24:40 localhost systemd[1]: Started Session 89 of User root.
 Mar 13 11:24:40 localhost systemd[4617]: Reached target Main User Target.
 Mar 13 11:24:40 localhost systemd[4617]: Startup finished in 73ms.
+Mar 13 11:25:00 localhost systemd[1]: session-89.scope: Deactivated successfully.
+Mar 13 11:25:01 localhost CRON[4673]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Mar 13 11:25:10 localhost systemd[1]: Stopping User Manager for UID 0...
+Mar 13 11:25:10 localhost systemd[4617]: Stopped target Main User Target.
+Mar 13 11:25:10 localhost systemd[4617]: Stopped target Basic System.
+Mar 13 11:25:10 localhost systemd[4617]: Stopped target Paths.
+Mar 13 11:25:10 localhost systemd[4617]: Stopped target Sockets.
+Mar 13 11:25:10 localhost systemd[4617]: Stopped target Timers.
+Mar 13 11:25:10 localhost systemd[4617]: Closed D-Bus User Message Bus Socket.
+Mar 13 11:25:10 localhost systemd[4617]: Closed GnuPG network certificate management daemon.
+Mar 13 11:25:10 localhost systemd[4617]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 11:25:10 localhost systemd[4617]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 11:25:10 localhost systemd[4617]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 11:25:10 localhost systemd[4617]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 13 11:25:10 localhost systemd[4617]: Closed debconf communication socket.
+Mar 13 11:25:10 localhost systemd[4617]: Closed REST API socket for snapd user session agent.
+Mar 13 11:25:10 localhost systemd[4617]: Removed slice User Application Slice.
+Mar 13 11:25:10 localhost systemd[4617]: Reached target Shutdown.
+Mar 13 11:25:10 localhost systemd[4617]: Finished Exit the Session.
+Mar 13 11:25:10 localhost systemd[4617]: Reached target Exit the Session.
+Mar 13 11:25:10 localhost systemd[1]: user@0.service: Deactivated successfully.
+Mar 13 11:25:10 localhost systemd[1]: Stopped User Manager for UID 0.
+Mar 13 11:25:10 localhost systemd[1]: Stopping User Runtime Directory /run/user/0...
+Mar 13 11:25:10 localhost systemd[1]: run-user-0.mount: Deactivated successfully.
+Mar 13 11:25:10 localhost systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+Mar 13 11:25:10 localhost systemd[1]: Stopped User Runtime Directory /run/user/0.
+Mar 13 11:25:10 localhost systemd[1]: Removed slice User Slice of UID 0.
+Mar 13 11:28:20 localhost systemd[1]: Created slice User Slice of UID 0.
+Mar 13 11:28:20 localhost systemd[1]: Starting User Runtime Directory /run/user/0...
+Mar 13 11:28:20 localhost systemd[1]: Finished User Runtime Directory /run/user/0.
+Mar 13 11:28:20 localhost systemd[1]: Starting User Manager for UID 0...
+Mar 13 11:28:20 localhost systemd[4688]: Queued start job for default target Main User Target.
+Mar 13 11:28:20 localhost systemd[4688]: Created slice User Application Slice.
+Mar 13 11:28:20 localhost systemd[4688]: Reached target Paths.
+Mar 13 11:28:20 localhost systemd[4688]: Reached target Timers.
+Mar 13 11:28:20 localhost systemd[4688]: Starting D-Bus User Message Bus Socket...
+Mar 13 11:28:20 localhost systemd[4688]: Listening on GnuPG network certificate management daemon.
+Mar 13 11:28:20 localhost systemd[4688]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 11:28:20 localhost systemd[4688]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 11:28:20 localhost systemd[4688]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 11:28:20 localhost systemd[4688]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 13 11:28:20 localhost systemd[4688]: Listening on debconf communication socket.
+Mar 13 11:28:20 localhost systemd[4688]: Listening on REST API socket for snapd user session agent.
+Mar 13 11:28:20 localhost systemd[4688]: Listening on D-Bus User Message Bus Socket.
+Mar 13 11:28:20 localhost systemd[4688]: Reached target Sockets.
+Mar 13 11:28:20 localhost systemd[4688]: Reached target Basic System.
+Mar 13 11:28:20 localhost systemd[1]: Started User Manager for UID 0.
+Mar 13 11:28:20 localhost systemd[1]: Started Session 92 of User root.
+Mar 13 11:28:20 localhost systemd[4688]: Reached target Main User Target.
+Mar 13 11:28:20 localhost systemd[4688]: Startup finished in 73ms.
+Mar 13 11:28:24 localhost systemd[1]: Started Session 94 of User root.
+Mar 13 11:28:37 localhost systemd[1]: session-92.scope: Deactivated successfully.
+Mar 13 11:28:41 localhost systemd[1]: session-94.scope: Deactivated successfully.
+Mar 13 11:28:51 localhost systemd[4688]: Stopped target Main User Target.
+Mar 13 11:28:51 localhost systemd[4688]: Stopped target Basic System.
+Mar 13 11:28:51 localhost systemd[4688]: Stopped target Paths.
+Mar 13 11:28:51 localhost systemd[4688]: Stopped target Sockets.
+Mar 13 11:28:51 localhost systemd[4688]: Stopped target Timers.
+Mar 13 11:28:51 localhost systemd[4688]: Closed D-Bus User Message Bus Socket.
+Mar 13 11:28:51 localhost systemd[4688]: Closed GnuPG network certificate management daemon.
+Mar 13 11:28:51 localhost systemd[4688]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 11:28:51 localhost systemd[4688]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 11:28:51 localhost systemd[4688]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 11:28:51 localhost systemd[4688]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 13 11:28:51 localhost systemd[4688]: Closed debconf communication socket.
+Mar 13 11:28:51 localhost systemd[4688]: Closed REST API socket for snapd user session agent.
+Mar 13 11:28:51 localhost systemd[4688]: Removed slice User Application Slice.
+Mar 13 11:28:51 localhost systemd[4688]: Reached target Shutdown.
+Mar 13 11:28:51 localhost systemd[4688]: Finished Exit the Session.
+Mar 13 11:28:51 localhost systemd[4688]: Reached target Exit the Session.
+Mar 13 11:28:51 localhost systemd[1]: Stopping User Manager for UID 0...
+Mar 13 11:28:51 localhost systemd[1]: user@0.service: Deactivated successfully.
+Mar 13 11:28:51 localhost systemd[1]: Stopped User Manager for UID 0.
+Mar 13 11:28:51 localhost systemd[1]: Stopping User Runtime Directory /run/user/0...
+Mar 13 11:28:51 localhost systemd[1]: run-user-0.mount: Deactivated successfully.
+Mar 13 11:28:51 localhost systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+Mar 13 11:28:51 localhost systemd[1]: Stopped User Runtime Directory /run/user/0.
+Mar 13 11:28:51 localhost systemd[1]: Removed slice User Slice of UID 0.
+Mar 13 11:30:22 localhost systemd[1]: Starting system activity accounting tool...
+Mar 13 11:30:22 localhost systemd[1]: sysstat-collect.service: Deactivated successfully.
+Mar 13 11:30:22 localhost systemd[1]: Finished system activity accounting tool.
+Mar 13 11:31:39 localhost systemd[1]: Created slice User Slice of UID 0.
+Mar 13 11:31:39 localhost systemd[1]: Starting User Runtime Directory /run/user/0...
+Mar 13 11:31:39 localhost systemd[1]: Finished User Runtime Directory /run/user/0.
+Mar 13 11:31:39 localhost systemd[1]: Starting User Manager for UID 0...
+Mar 13 11:31:40 localhost systemd[4812]: Queued start job for default target Main User Target.
+Mar 13 11:31:40 localhost systemd[4812]: Created slice User Application Slice.
+Mar 13 11:31:40 localhost systemd[4812]: Reached target Paths.
+Mar 13 11:31:40 localhost systemd[4812]: Reached target Timers.
+Mar 13 11:31:40 localhost systemd[4812]: Starting D-Bus User Message Bus Socket...
+Mar 13 11:31:40 localhost systemd[4812]: Listening on GnuPG network certificate management daemon.
+Mar 13 11:31:40 localhost systemd[4812]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 11:31:40 localhost systemd[4812]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 11:31:40 localhost systemd[4812]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 11:31:40 localhost systemd[4812]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 13 11:31:40 localhost systemd[4812]: Listening on debconf communication socket.
+Mar 13 11:31:40 localhost systemd[4812]: Listening on REST API socket for snapd user session agent.
+Mar 13 11:31:40 localhost systemd[4812]: Listening on D-Bus User Message Bus Socket.
+Mar 13 11:31:40 localhost systemd[4812]: Reached target Sockets.
+Mar 13 11:31:40 localhost systemd[4812]: Reached target Basic System.
+Mar 13 11:31:40 localhost systemd[1]: Started User Manager for UID 0.
+Mar 13 11:31:40 localhost systemd[1]: Started Session 95 of User root.
+Mar 13 11:31:40 localhost systemd[4812]: Reached target Main User Target.
+Mar 13 11:31:40 localhost systemd[4812]: Startup finished in 128ms.
+Mar 13 11:31:41 localhost systemd[1]: Started Session 97 of User root.
+Mar 13 11:31:42 localhost systemd[1]: session-97.scope: Deactivated successfully.
+Mar 13 11:31:44 localhost systemd[1]: Started Session 98 of User root.
+Mar 13 11:31:46 localhost systemd[1]: session-98.scope: Deactivated successfully.
+Mar 13 11:32:00 localhost systemd[1]: session-95.scope: Deactivated successfully.
+Mar 13 11:32:10 localhost systemd[4812]: Stopped target Main User Target.
+Mar 13 11:32:10 localhost systemd[4812]: Stopped target Basic System.
+Mar 13 11:32:10 localhost systemd[4812]: Stopped target Paths.
+Mar 13 11:32:10 localhost systemd[4812]: Stopped target Sockets.
+Mar 13 11:32:10 localhost systemd[4812]: Stopped target Timers.
+Mar 13 11:32:10 localhost systemd[4812]: Closed D-Bus User Message Bus Socket.
+Mar 13 11:32:10 localhost systemd[4812]: Closed GnuPG network certificate management daemon.
+Mar 13 11:32:10 localhost systemd[4812]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 11:32:10 localhost systemd[4812]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 11:32:10 localhost systemd[4812]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 11:32:10 localhost systemd[4812]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 13 11:32:10 localhost systemd[4812]: Closed debconf communication socket.
+Mar 13 11:32:10 localhost systemd[4812]: Closed REST API socket for snapd user session agent.
+Mar 13 11:32:10 localhost systemd[4812]: Removed slice User Application Slice.
+Mar 13 11:32:10 localhost systemd[4812]: Reached target Shutdown.
+Mar 13 11:32:10 localhost systemd[4812]: Finished Exit the Session.
+Mar 13 11:32:10 localhost systemd[4812]: Reached target Exit the Session.
+Mar 13 11:32:10 localhost systemd[1]: Stopping User Manager for UID 0...
+Mar 13 11:32:10 localhost systemd[1]: user@0.service: Deactivated successfully.
+Mar 13 11:32:10 localhost systemd[1]: Stopped User Manager for UID 0.
+Mar 13 11:32:10 localhost systemd[1]: Stopping User Runtime Directory /run/user/0...
+Mar 13 11:32:10 localhost systemd[1]: run-user-0.mount: Deactivated successfully.
+Mar 13 11:32:10 localhost systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+Mar 13 11:32:10 localhost systemd[1]: Stopped User Runtime Directory /run/user/0.
+Mar 13 11:32:10 localhost systemd[1]: Removed slice User Slice of UID 0.
+Mar 13 11:32:20 localhost systemd[1]: Created slice User Slice of UID 0.
+Mar 13 11:32:20 localhost systemd[1]: Starting User Runtime Directory /run/user/0...
+Mar 13 11:32:20 localhost systemd[1]: Finished User Runtime Directory /run/user/0.
+Mar 13 11:32:20 localhost systemd[1]: Starting User Manager for UID 0...
+Mar 13 11:32:21 localhost systemd[4981]: Queued start job for default target Main User Target.
+Mar 13 11:32:21 localhost systemd[4981]: Created slice User Application Slice.
+Mar 13 11:32:21 localhost systemd[4981]: Reached target Paths.
+Mar 13 11:32:21 localhost systemd[4981]: Reached target Timers.
+Mar 13 11:32:21 localhost systemd[4981]: Starting D-Bus User Message Bus Socket...
+Mar 13 11:32:21 localhost systemd[4981]: Listening on GnuPG network certificate management daemon.
+Mar 13 11:32:21 localhost systemd[4981]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 11:32:21 localhost systemd[4981]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 11:32:21 localhost systemd[4981]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 11:32:21 localhost systemd[4981]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 13 11:32:21 localhost systemd[4981]: Listening on debconf communication socket.
+Mar 13 11:32:21 localhost systemd[4981]: Listening on REST API socket for snapd user session agent.
+Mar 13 11:32:21 localhost systemd[4981]: Listening on D-Bus User Message Bus Socket.
+Mar 13 11:32:21 localhost systemd[4981]: Reached target Sockets.
+Mar 13 11:32:21 localhost systemd[4981]: Reached target Basic System.
+Mar 13 11:32:21 localhost systemd[1]: Started User Manager for UID 0.
+Mar 13 11:32:21 localhost systemd[1]: Started Session 99 of User root.
+Mar 13 11:32:21 localhost systemd[4981]: Reached target Main User Target.
+Mar 13 11:32:21 localhost systemd[4981]: Startup finished in 72ms.
+Mar 13 11:32:38 localhost systemd[1]: session-99.scope: Deactivated successfully.
+Mar 13 11:32:48 localhost systemd[4981]: Stopped target Main User Target.
+Mar 13 11:32:48 localhost systemd[4981]: Stopped target Basic System.
+Mar 13 11:32:48 localhost systemd[4981]: Stopped target Paths.
+Mar 13 11:32:48 localhost systemd[4981]: Stopped target Sockets.
+Mar 13 11:32:48 localhost systemd[4981]: Stopped target Timers.
+Mar 13 11:32:48 localhost systemd[4981]: Closed D-Bus User Message Bus Socket.
+Mar 13 11:32:48 localhost systemd[4981]: Closed GnuPG network certificate management daemon.
+Mar 13 11:32:48 localhost systemd[4981]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 11:32:48 localhost systemd[4981]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 11:32:48 localhost systemd[4981]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 11:32:48 localhost systemd[4981]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 13 11:32:48 localhost systemd[4981]: Closed debconf communication socket.
+Mar 13 11:32:48 localhost systemd[4981]: Closed REST API socket for snapd user session agent.
+Mar 13 11:32:48 localhost systemd[4981]: Removed slice User Application Slice.
+Mar 13 11:32:48 localhost systemd[4981]: Reached target Shutdown.
+Mar 13 11:32:48 localhost systemd[4981]: Finished Exit the Session.
+Mar 13 11:32:48 localhost systemd[4981]: Reached target Exit the Session.
+Mar 13 11:32:48 localhost systemd[1]: Stopping User Manager for UID 0...
+Mar 13 11:32:48 localhost systemd[1]: user@0.service: Deactivated successfully.
+Mar 13 11:32:48 localhost systemd[1]: Stopped User Manager for UID 0.
+Mar 13 11:32:48 localhost systemd[1]: Stopping User Runtime Directory /run/user/0...
+Mar 13 11:32:48 localhost systemd[1]: run-user-0.mount: Deactivated successfully.
+Mar 13 11:32:48 localhost systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+Mar 13 11:32:48 localhost systemd[1]: Stopped User Runtime Directory /run/user/0.
+Mar 13 11:32:48 localhost systemd[1]: Removed slice User Slice of UID 0.
+Mar 13 11:33:55 localhost systemd[1]: Created slice User Slice of UID 0.
+Mar 13 11:33:55 localhost systemd[1]: Starting User Runtime Directory /run/user/0...
+Mar 13 11:33:55 localhost systemd[1]: Finished User Runtime Directory /run/user/0.
+Mar 13 11:33:55 localhost systemd[1]: Starting User Manager for UID 0...
+Mar 13 11:33:55 localhost systemd[5067]: Queued start job for default target Main User Target.
+Mar 13 11:33:55 localhost systemd[5067]: Created slice User Application Slice.
+Mar 13 11:33:55 localhost systemd[5067]: Reached target Paths.
+Mar 13 11:33:55 localhost systemd[5067]: Reached target Timers.
+Mar 13 11:33:55 localhost systemd[5067]: Starting D-Bus User Message Bus Socket...
+Mar 13 11:33:55 localhost systemd[5067]: Listening on GnuPG network certificate management daemon.
+Mar 13 11:33:55 localhost systemd[5067]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 11:33:55 localhost systemd[5067]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 11:33:55 localhost systemd[5067]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 11:33:55 localhost systemd[5067]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 13 11:33:55 localhost systemd[5067]: Listening on debconf communication socket.
+Mar 13 11:33:55 localhost systemd[5067]: Listening on REST API socket for snapd user session agent.
+Mar 13 11:33:55 localhost systemd[5067]: Listening on D-Bus User Message Bus Socket.
+Mar 13 11:33:55 localhost systemd[5067]: Reached target Sockets.
+Mar 13 11:33:55 localhost systemd[5067]: Reached target Basic System.
+Mar 13 11:33:55 localhost systemd[1]: Started User Manager for UID 0.
+Mar 13 11:33:55 localhost systemd[1]: Started Session 101 of User root.
+Mar 13 11:33:55 localhost systemd[5067]: Reached target Main User Target.
+Mar 13 11:33:55 localhost systemd[5067]: Startup finished in 73ms.
+Mar 13 11:34:12 localhost systemd[1]: session-101.scope: Deactivated successfully.
+Mar 13 11:34:22 localhost systemd[1]: Stopping User Manager for UID 0...
+Mar 13 11:34:22 localhost systemd[5067]: Stopped target Main User Target.
+Mar 13 11:34:22 localhost systemd[5067]: Stopped target Basic System.
+Mar 13 11:34:22 localhost systemd[5067]: Stopped target Paths.
+Mar 13 11:34:22 localhost systemd[5067]: Stopped target Sockets.
+Mar 13 11:34:22 localhost systemd[5067]: Stopped target Timers.
+Mar 13 11:34:22 localhost systemd[5067]: Closed D-Bus User Message Bus Socket.
+Mar 13 11:34:22 localhost systemd[5067]: Closed GnuPG network certificate management daemon.
+Mar 13 11:34:22 localhost systemd[5067]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 11:34:22 localhost systemd[5067]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 11:34:22 localhost systemd[5067]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 11:34:22 localhost systemd[5067]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 13 11:34:22 localhost systemd[5067]: Closed debconf communication socket.
+Mar 13 11:34:22 localhost systemd[5067]: Closed REST API socket for snapd user session agent.
+Mar 13 11:34:22 localhost systemd[5067]: Removed slice User Application Slice.
+Mar 13 11:34:22 localhost systemd[5067]: Reached target Shutdown.
+Mar 13 11:34:22 localhost systemd[5067]: Finished Exit the Session.
+Mar 13 11:34:22 localhost systemd[5067]: Reached target Exit the Session.
+Mar 13 11:34:22 localhost systemd[1]: user@0.service: Deactivated successfully.
+Mar 13 11:34:22 localhost systemd[1]: Stopped User Manager for UID 0.
+Mar 13 11:34:22 localhost systemd[1]: Stopping User Runtime Directory /run/user/0...
+Mar 13 11:34:22 localhost systemd[1]: run-user-0.mount: Deactivated successfully.
+Mar 13 11:34:22 localhost systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+Mar 13 11:34:22 localhost systemd[1]: Stopped User Runtime Directory /run/user/0.
+Mar 13 11:34:22 localhost systemd[1]: Removed slice User Slice of UID 0.
+Mar 13 11:35:01 localhost CRON[5140]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Mar 13 11:35:08 localhost systemd[1]: Created slice User Slice of UID 0.
+Mar 13 11:35:08 localhost systemd[1]: Starting User Runtime Directory /run/user/0...
+Mar 13 11:35:08 localhost systemd[1]: Finished User Runtime Directory /run/user/0.
+Mar 13 11:35:08 localhost systemd[1]: Starting User Manager for UID 0...
+Mar 13 11:35:08 localhost systemd[5145]: Queued start job for default target Main User Target.
+Mar 13 11:35:08 localhost systemd[5145]: Created slice User Application Slice.
+Mar 13 11:35:08 localhost systemd[5145]: Reached target Paths.
+Mar 13 11:35:08 localhost systemd[5145]: Reached target Timers.
+Mar 13 11:35:08 localhost systemd[5145]: Starting D-Bus User Message Bus Socket...
+Mar 13 11:35:08 localhost systemd[5145]: Listening on GnuPG network certificate management daemon.
+Mar 13 11:35:08 localhost systemd[5145]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 11:35:08 localhost systemd[5145]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 11:35:08 localhost systemd[5145]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 11:35:08 localhost systemd[5145]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 13 11:35:08 localhost systemd[5145]: Listening on debconf communication socket.
+Mar 13 11:35:08 localhost systemd[5145]: Listening on REST API socket for snapd user session agent.
+Mar 13 11:35:08 localhost systemd[5145]: Listening on D-Bus User Message Bus Socket.
+Mar 13 11:35:08 localhost systemd[5145]: Reached target Sockets.
+Mar 13 11:35:08 localhost systemd[5145]: Reached target Basic System.
+Mar 13 11:35:08 localhost systemd[1]: Started User Manager for UID 0.
+Mar 13 11:35:08 localhost systemd[1]: Started Session 104 of User root.
+Mar 13 11:35:08 localhost systemd[5145]: Reached target Main User Target.
+Mar 13 11:35:08 localhost systemd[5145]: Startup finished in 72ms.
