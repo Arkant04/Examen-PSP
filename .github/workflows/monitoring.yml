@@ -2,8 +2,7 @@ name: Web Monitoring
 
 on:
   schedule:
-    - cron: '* * * * *'  # Esto ejecuta la acción cada minuto
-
+    - cron: '* * * * *'  # Ejecuta la acción cada minuto
 
 jobs:
   monitor:
@@ -28,10 +27,7 @@ jobs:
       - name: Commit results
         run: |
           git config --global user.name "Arkant04"
-          git config --global user.email "delacorte19@gmail.com"
+          git config --global user.email "delacorte19gmail.com"
           git add status_log.txt
           git commit -m "Monitor update: $(date)"
           git push
-          
-          
-        
