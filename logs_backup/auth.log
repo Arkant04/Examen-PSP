@@ -1209,3 +1209,104 @@ Mar 13 11:09:49 localhost systemd: pam_unix(systemd-user:session): session opene
 Mar 13 11:09:53 localhost sshd[4091]: Accepted password for root from 20.25.193.64 port 27456 ssh2
 Mar 13 11:09:53 localhost sshd[4091]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
 Mar 13 11:09:53 localhost systemd-logind[607]: New session 74 of user root.
+Mar 13 11:10:06 localhost sshd[4023]: Received disconnect from 20.49.15.150 port 65472:11: disconnected by user
+Mar 13 11:10:06 localhost sshd[4023]: Disconnected from user root 20.49.15.150 port 65472
+Mar 13 11:10:06 localhost sshd[4023]: pam_unix(sshd:session): session closed for user root
+Mar 13 11:10:06 localhost systemd-logind[607]: Session 72 logged out. Waiting for processes to exit.
+Mar 13 11:10:06 localhost systemd-logind[607]: Removed session 72.
+Mar 13 11:10:13 localhost sshd[4091]: Received disconnect from 20.25.193.64 port 27456:11: disconnected by user
+Mar 13 11:10:13 localhost sshd[4091]: Disconnected from user root 20.25.193.64 port 27456
+Mar 13 11:10:13 localhost sshd[4091]: pam_unix(sshd:session): session closed for user root
+Mar 13 11:10:13 localhost systemd-logind[607]: Session 74 logged out. Waiting for processes to exit.
+Mar 13 11:10:13 localhost systemd-logind[607]: Removed session 74.
+Mar 13 11:13:07 localhost sshd[4144]: Invalid user elasticsearch from 206.189.114.49 port 49382
+Mar 13 11:13:07 localhost sshd[4144]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 11:13:07 localhost sshd[4144]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=206.189.114.49 
+Mar 13 11:13:10 localhost sshd[4144]: Failed password for invalid user elasticsearch from 206.189.114.49 port 49382 ssh2
+Mar 13 11:13:10 localhost sshd[4144]: Connection closed by invalid user elasticsearch 206.189.114.49 port 49382 [preauth]
+Mar 13 11:14:58 localhost sshd[4146]: Invalid user ltc from 92.118.39.75 port 34900
+Mar 13 11:14:58 localhost sshd[4146]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 11:14:58 localhost sshd[4146]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.75 
+Mar 13 11:15:00 localhost sshd[4146]: Failed password for invalid user ltc from 92.118.39.75 port 34900 ssh2
+Mar 13 11:15:01 localhost CRON[4148]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:15:01 localhost CRON[4148]: pam_unix(cron:session): session closed for user root
+Mar 13 11:15:02 localhost sshd[4146]: Connection closed by invalid user ltc 92.118.39.75 port 34900 [preauth]
+Mar 13 11:16:41 localhost sshd[4152]: Accepted password for root from 172.183.79.94 port 7424 ssh2
+Mar 13 11:16:41 localhost sshd[4152]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:16:41 localhost systemd-logind[607]: New session 76 of user root.
+Mar 13 11:16:41 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:17:01 localhost CRON[4222]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:17:01 localhost CRON[4222]: pam_unix(cron:session): session closed for user root
+Mar 13 11:17:02 localhost sshd[4152]: Received disconnect from 172.183.79.94 port 7424:11: disconnected by user
+Mar 13 11:17:02 localhost sshd[4152]: Disconnected from user root 172.183.79.94 port 7424
+Mar 13 11:17:02 localhost sshd[4152]: pam_unix(sshd:session): session closed for user root
+Mar 13 11:17:02 localhost systemd-logind[607]: Session 76 logged out. Waiting for processes to exit.
+Mar 13 11:17:02 localhost systemd-logind[607]: Removed session 76.
+Mar 13 11:17:54 localhost sshd[4227]: Accepted password for root from 52.234.33.212 port 10304 ssh2
+Mar 13 11:17:54 localhost sshd[4227]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:17:54 localhost systemd-logind[607]: New session 79 of user root.
+Mar 13 11:17:54 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:18:21 localhost sshd[4227]: Received disconnect from 52.234.33.212 port 10304:11: disconnected by user
+Mar 13 11:18:21 localhost sshd[4227]: Disconnected from user root 52.234.33.212 port 10304
+Mar 13 11:18:21 localhost sshd[4227]: pam_unix(sshd:session): session closed for user root
+Mar 13 11:18:21 localhost systemd-logind[607]: Session 79 logged out. Waiting for processes to exit.
+Mar 13 11:18:21 localhost systemd-logind[607]: Removed session 79.
+Mar 13 11:20:04 localhost sshd[4296]: Invalid user elastic from 206.189.114.49 port 49686
+Mar 13 11:20:04 localhost sshd[4296]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 11:20:04 localhost sshd[4296]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=206.189.114.49 
+Mar 13 11:20:06 localhost sshd[4296]: Failed password for invalid user elastic from 206.189.114.49 port 49686 ssh2
+Mar 13 11:20:07 localhost sshd[4296]: Connection closed by invalid user elastic 206.189.114.49 port 49686 [preauth]
+Mar 13 11:20:25 localhost sshd[4299]: Accepted password for root from 20.43.245.196 port 44096 ssh2
+Mar 13 11:20:25 localhost sshd[4299]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:20:25 localhost systemd-logind[607]: New session 81 of user root.
+Mar 13 11:20:25 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:20:53 localhost sshd[4299]: Received disconnect from 20.43.245.196 port 44096:11: disconnected by user
+Mar 13 11:20:53 localhost sshd[4299]: Disconnected from user root 20.43.245.196 port 44096
+Mar 13 11:20:53 localhost sshd[4299]: pam_unix(sshd:session): session closed for user root
+Mar 13 11:20:53 localhost systemd-logind[607]: Session 81 logged out. Waiting for processes to exit.
+Mar 13 11:20:53 localhost systemd-logind[607]: Removed session 81.
+Mar 13 11:20:55 localhost sshd[4367]: error: kex_exchange_identification: Connection closed by remote host
+Mar 13 11:20:55 localhost sshd[4367]: Connection closed by 159.203.12.184 port 42218
+Mar 13 11:20:57 localhost sshd[4368]: Accepted password for root from 172.183.106.182 port 31920 ssh2
+Mar 13 11:20:57 localhost sshd[4368]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:20:57 localhost systemd-logind[607]: New session 83 of user root.
+Mar 13 11:21:17 localhost sshd[4368]: Received disconnect from 172.183.106.182 port 31920:11: disconnected by user
+Mar 13 11:21:17 localhost sshd[4368]: Disconnected from user root 172.183.106.182 port 31920
+Mar 13 11:21:17 localhost sshd[4368]: pam_unix(sshd:session): session closed for user root
+Mar 13 11:21:17 localhost systemd-logind[607]: Session 83 logged out. Waiting for processes to exit.
+Mar 13 11:21:17 localhost systemd-logind[607]: Removed session 83.
+Mar 13 11:21:21 localhost sshd[4418]: Invalid user link from 92.118.39.75 port 44380
+Mar 13 11:21:21 localhost sshd[4418]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 11:21:21 localhost sshd[4418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.75 
+Mar 13 11:21:23 localhost sshd[4418]: Failed password for invalid user link from 92.118.39.75 port 44380 ssh2
+Mar 13 11:21:23 localhost sshd[4418]: Connection closed by invalid user link 92.118.39.75 port 44380 [preauth]
+Mar 13 11:22:39 localhost sshd[4422]: Accepted password for root from 52.155.61.115 port 16320 ssh2
+Mar 13 11:22:39 localhost sshd[4422]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:22:39 localhost systemd-logind[607]: New session 84 of user root.
+Mar 13 11:22:39 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:22:40 localhost sshd[4422]: Received disconnect from 52.155.61.115 port 16320:11: disconnected by user
+Mar 13 11:22:40 localhost sshd[4422]: Disconnected from user root 52.155.61.115 port 16320
+Mar 13 11:22:40 localhost sshd[4422]: pam_unix(sshd:session): session closed for user root
+Mar 13 11:22:40 localhost systemd-logind[607]: Session 84 logged out. Waiting for processes to exit.
+Mar 13 11:22:40 localhost systemd-logind[607]: Removed session 84.
+Mar 13 11:22:42 localhost sshd[4494]: Accepted password for root from 52.155.61.115 port 16321 ssh2
+Mar 13 11:22:42 localhost sshd[4494]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:22:42 localhost systemd-logind[607]: New session 86 of user root.
+Mar 13 11:22:45 localhost sshd[4494]: Received disconnect from 52.155.61.115 port 16321:11: disconnected by user
+Mar 13 11:22:45 localhost sshd[4494]: Disconnected from user root 52.155.61.115 port 16321
+Mar 13 11:22:45 localhost sshd[4494]: pam_unix(sshd:session): session closed for user root
+Mar 13 11:22:45 localhost systemd-logind[607]: Session 86 logged out. Waiting for processes to exit.
+Mar 13 11:22:45 localhost systemd-logind[607]: Removed session 86.
+Mar 13 11:23:59 localhost sshd[4545]: Accepted password for root from 172.183.221.52 port 56448 ssh2
+Mar 13 11:23:59 localhost sshd[4545]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:23:59 localhost systemd-logind[607]: New session 87 of user root.
+Mar 13 11:23:59 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:24:20 localhost sshd[4545]: Received disconnect from 172.183.221.52 port 56448:11: disconnected by user
+Mar 13 11:24:20 localhost sshd[4545]: Disconnected from user root 172.183.221.52 port 56448
+Mar 13 11:24:20 localhost sshd[4545]: pam_unix(sshd:session): session closed for user root
+Mar 13 11:24:20 localhost systemd-logind[607]: Session 87 logged out. Waiting for processes to exit.
+Mar 13 11:24:20 localhost systemd-logind[607]: Removed session 87.
+Mar 13 11:24:40 localhost sshd[4614]: Accepted password for root from 172.183.111.48 port 19584 ssh2
+Mar 13 11:24:40 localhost sshd[4614]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 11:24:40 localhost systemd-logind[607]: New session 89 of user root.
+Mar 13 11:24:40 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
