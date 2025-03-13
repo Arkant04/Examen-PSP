@@ -1,7 +1,7 @@
 name: Web Monitoring
 
 on:
-  workflow_dispatch:  # Permite ejecutar el flujo de trabajo manualmente desde la interfaz de GitHub
+  workflow_dispatch:  # Permite ejecutar la acción manualmente desde la interfaz de GitHub
   schedule:
     - cron: '* * * * *'  # Ejecuta la acción cada minuto (opcional, si también quieres que corra automáticamente)
 
@@ -18,12 +18,20 @@ jobs:
           echo '#!/bin/bash' > monitor.sh
           echo 'URL="https://x.com"' >> monitor.sh  # Aquí ponemos la URL de X (Twitter)
           echo 'STATUS_CODE=$(curl -o /dev/null -s -w "%{http_code}" $URL)' >> monitor.sh
+          echo 'if [ $? -ne 0 ]; then echo "Error en la solicitud curl"; exit 1; fi' >> monitor.sh
           echo 'DATE=$(date "+%Y-%m-%d %H:%M:%S")' >> monitor.sh
-          echo "echo \"$DATE - $STATUS_CODE\" >> status_log.txt" >> monitor.sh
+          echo 'echo "Fecha: $DATE, Código de Estado: $STATUS_CODE"' >> monitor.sh
+          echo 'echo "$DATE - $STATUS_CODE" >> status_log.txt' >> monitor.sh
           chmod +x monitor.sh
 
       - name: Run monitor script
         run: ./monitor.sh
+
+      - name: Verificar permisos del archivo status_log.txt
+        run: |
+          if [ -f status_log.txt ]; then
+            chmod 666 status_log.txt
+          fi
 
       - name: Commit results
         run: |
