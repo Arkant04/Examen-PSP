@@ -1,0 +1,33 @@
+name: Web Monitoring
+
+on:
+  schedule:
+    - cron: '* * * * *'  # Ejecuta la acción cada minuto
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up monitor script
+        run: |
+          echo '#!/bin/bash' > monitor.sh
+          echo 'URL="https://x.com"' >> monitor.sh  # Aquí ponemos la URL de X (Twitter)
+          echo 'STATUS_CODE=$(curl -o /dev/null -s -w "%{http_code}" $URL)' >> monitor.sh
+          echo 'DATE=$(date "+%Y-%m-%d %H:%M:%S")' >> monitor.sh
+          echo "echo \"$DATE - $STATUS_CODE\" >> status_log.txt" >> monitor.sh
+          chmod +x monitor.sh
+
+      - name: Run monitor script
+        run: ./monitor.sh
+
+      - name: Commit results
+        run: |
+          git config --global user.name "Arkant04"
+          git config --global user.email "delacorte19@gmail.com"
+          git add status_log.txt
+          git commit -m "Monitor update: $(date)"
+          git push
