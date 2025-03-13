@@ -1,8 +1,9 @@
 name: Web Monitoring
 
 on:
+  workflow_dispatch:  # Permite ejecutar el flujo de trabajo manualmente desde la interfaz de GitHub
   schedule:
-    - cron: '* * * * *'  # Ejecuta la acción cada minuto
+    - cron: '* * * * *'  # Ejecuta la acción cada minuto (opcional, si también quieres que corra automáticamente)
 
 jobs:
   monitor:
