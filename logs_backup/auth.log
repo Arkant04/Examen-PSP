@@ -7118,3 +7118,433 @@ Mar 13 17:58:05 localhost sshd[17803]: Accepted password for root from 172.200.1
 Mar 13 17:58:05 localhost sshd[17803]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
 Mar 13 17:58:05 localhost systemd-logind[607]: New session 426 of user root.
 Mar 13 17:58:05 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 17:58:24 localhost sshd[17803]: Received disconnect from 172.200.199.145 port 47112:11: disconnected by user
+Mar 13 17:58:24 localhost sshd[17803]: Disconnected from user root 172.200.199.145 port 47112
+Mar 13 17:58:24 localhost sshd[17803]: pam_unix(sshd:session): session closed for user root
+Mar 13 17:58:24 localhost systemd-logind[607]: Session 426 logged out. Waiting for processes to exit.
+Mar 13 17:58:24 localhost systemd-logind[607]: Removed session 426.
+Mar 13 17:58:55 localhost sshd[17873]: Accepted password for root from 74.249.22.159 port 59456 ssh2
+Mar 13 17:58:55 localhost sshd[17873]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 17:58:55 localhost systemd-logind[607]: New session 428 of user root.
+Mar 13 17:58:55 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 17:59:06 localhost sshd[17932]: Invalid user oracle from 194.93.2.249 port 38084
+Mar 13 17:59:09 localhost sshd[17932]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 17:59:09 localhost sshd[17932]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249 
+Mar 13 17:59:11 localhost sshd[17932]: Failed password for invalid user oracle from 194.93.2.249 port 38084 ssh2
+Mar 13 17:59:11 localhost sshd[17932]: Connection closed by invalid user oracle 194.93.2.249 port 38084 [preauth]
+Mar 13 17:59:13 localhost sshd[17873]: Received disconnect from 74.249.22.159 port 59456:11: disconnected by user
+Mar 13 17:59:13 localhost sshd[17873]: Disconnected from user root 74.249.22.159 port 59456
+Mar 13 17:59:13 localhost sshd[17873]: pam_unix(sshd:session): session closed for user root
+Mar 13 17:59:13 localhost systemd-logind[607]: Session 428 logged out. Waiting for processes to exit.
+Mar 13 17:59:13 localhost systemd-logind[607]: Removed session 428.
+Mar 13 18:00:38 localhost sshd[17936]: Accepted password for root from 172.178.110.177 port 41224 ssh2
+Mar 13 18:00:38 localhost sshd[17936]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:00:38 localhost systemd-logind[607]: New session 430 of user root.
+Mar 13 18:00:38 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:00:56 localhost sshd[17936]: Received disconnect from 172.178.110.177 port 41224:11: disconnected by user
+Mar 13 18:00:56 localhost sshd[17936]: Disconnected from user root 172.178.110.177 port 41224
+Mar 13 18:00:56 localhost sshd[17936]: pam_unix(sshd:session): session closed for user root
+Mar 13 18:00:56 localhost systemd-logind[607]: Session 430 logged out. Waiting for processes to exit.
+Mar 13 18:00:56 localhost systemd-logind[607]: Removed session 430.
+Mar 13 18:01:02 localhost sshd[18004]: Invalid user ubuntu from 142.93.157.230 port 35498
+Mar 13 18:01:02 localhost sshd[18004]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:01:02 localhost sshd[18004]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=142.93.157.230 
+Mar 13 18:01:04 localhost sshd[18004]: Failed password for invalid user ubuntu from 142.93.157.230 port 35498 ssh2
+Mar 13 18:01:05 localhost sshd[18004]: Connection closed by invalid user ubuntu 142.93.157.230 port 35498 [preauth]
+Mar 13 18:02:26 localhost sshd[18007]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:02:28 localhost sshd[18007]: Failed password for root from 146.59.236.77 port 42010 ssh2
+Mar 13 18:02:29 localhost sshd[18007]: Received disconnect from 146.59.236.77 port 42010:11: Bye Bye [preauth]
+Mar 13 18:02:29 localhost sshd[18007]: Disconnected from authenticating user root 146.59.236.77 port 42010 [preauth]
+Mar 13 18:02:34 localhost sshd[18009]: Invalid user guest from 194.93.2.249 port 34340
+Mar 13 18:02:34 localhost sshd[18009]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:02:34 localhost sshd[18009]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249 
+Mar 13 18:02:37 localhost sshd[18009]: Failed password for invalid user guest from 194.93.2.249 port 34340 ssh2
+Mar 13 18:02:37 localhost sshd[18009]: Connection closed by invalid user guest 194.93.2.249 port 34340 [preauth]
+Mar 13 18:03:41 localhost sshd[18012]: error: kex_exchange_identification: Connection closed by remote host
+Mar 13 18:03:41 localhost sshd[18012]: Connection closed by 3.129.92.250 port 60704
+Mar 13 18:04:04 localhost sshd[18013]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=68.183.46.195  user=root
+Mar 13 18:04:07 localhost sshd[18013]: Failed password for root from 68.183.46.195 port 53704 ssh2
+Mar 13 18:04:07 localhost sshd[18013]: Connection closed by authenticating user root 68.183.46.195 port 53704 [preauth]
+Mar 13 18:04:43 localhost sshd[18016]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:04:45 localhost sshd[18016]: Failed password for root from 27.254.149.199 port 55986 ssh2
+Mar 13 18:04:45 localhost sshd[18018]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:04:46 localhost sshd[18016]: Received disconnect from 27.254.149.199 port 55986:11: Bye Bye [preauth]
+Mar 13 18:04:46 localhost sshd[18016]: Disconnected from authenticating user root 27.254.149.199 port 55986 [preauth]
+Mar 13 18:04:47 localhost sshd[18018]: Failed password for root from 14.34.157.138 port 44432 ssh2
+Mar 13 18:04:48 localhost sshd[18018]: Received disconnect from 14.34.157.138 port 44432:11: Bye Bye [preauth]
+Mar 13 18:04:48 localhost sshd[18018]: Disconnected from authenticating user root 14.34.157.138 port 44432 [preauth]
+Mar 13 18:05:01 localhost CRON[18020]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:05:01 localhost CRON[18020]: pam_unix(cron:session): session closed for user root
+Mar 13 18:06:09 localhost sshd[18023]: error: kex_exchange_identification: read: Connection reset by peer
+Mar 13 18:06:09 localhost sshd[18023]: Connection reset by 194.93.2.249 port 32978
+Mar 13 18:06:24 localhost sshd[18024]: Invalid user flask from 194.93.2.249 port 42326
+Mar 13 18:06:24 localhost sshd[18024]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:06:24 localhost sshd[18024]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249 
+Mar 13 18:06:25 localhost sshd[18024]: Failed password for invalid user flask from 194.93.2.249 port 42326 ssh2
+Mar 13 18:06:25 localhost sshd[18024]: Connection closed by invalid user flask 194.93.2.249 port 42326 [preauth]
+Mar 13 18:06:27 localhost sshd[18026]: Invalid user ubuntu from 142.93.157.230 port 35812
+Mar 13 18:06:27 localhost sshd[18026]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:06:27 localhost sshd[18026]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=142.93.157.230 
+Mar 13 18:06:29 localhost sshd[18026]: Failed password for invalid user ubuntu from 142.93.157.230 port 35812 ssh2
+Mar 13 18:06:30 localhost sshd[18026]: Connection closed by invalid user ubuntu 142.93.157.230 port 35812 [preauth]
+Mar 13 18:06:40 localhost sshd[18028]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:06:42 localhost sshd[18028]: Failed password for root from 146.59.236.77 port 38098 ssh2
+Mar 13 18:06:43 localhost sshd[18028]: Received disconnect from 146.59.236.77 port 38098:11: Bye Bye [preauth]
+Mar 13 18:06:43 localhost sshd[18028]: Disconnected from authenticating user root 146.59.236.77 port 38098 [preauth]
+Mar 13 18:07:31 localhost sshd[18030]: Invalid user testuser from 194.93.2.249 port 34822
+Mar 13 18:07:35 localhost sshd[18032]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:07:35 localhost sshd[18034]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:07:35 localhost sshd[18030]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:07:35 localhost sshd[18030]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249 
+Mar 13 18:07:37 localhost sshd[18032]: Failed password for root from 27.254.149.199 port 35630 ssh2
+Mar 13 18:07:37 localhost sshd[18034]: Failed password for root from 14.34.157.138 port 52564 ssh2
+Mar 13 18:07:37 localhost sshd[18030]: Failed password for invalid user testuser from 194.93.2.249 port 34822 ssh2
+Mar 13 18:07:40 localhost sshd[18032]: Received disconnect from 27.254.149.199 port 35630:11: Bye Bye [preauth]
+Mar 13 18:07:40 localhost sshd[18032]: Disconnected from authenticating user root 27.254.149.199 port 35630 [preauth]
+Mar 13 18:07:40 localhost sshd[18034]: Received disconnect from 14.34.157.138 port 52564:11: Bye Bye [preauth]
+Mar 13 18:07:40 localhost sshd[18034]: Disconnected from authenticating user root 14.34.157.138 port 52564 [preauth]
+Mar 13 18:07:40 localhost sshd[18030]: Connection closed by invalid user testuser 194.93.2.249 port 34822 [preauth]
+Mar 13 18:07:44 localhost sshd[18036]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:07:46 localhost sshd[18036]: Failed password for root from 146.59.236.77 port 52876 ssh2
+Mar 13 18:07:47 localhost sshd[18036]: Received disconnect from 146.59.236.77 port 52876:11: Bye Bye [preauth]
+Mar 13 18:07:47 localhost sshd[18036]: Disconnected from authenticating user root 146.59.236.77 port 52876 [preauth]
+Mar 13 18:08:34 localhost sshd[18038]: Invalid user postgres from 194.93.2.249 port 44656
+Mar 13 18:08:40 localhost sshd[18038]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:08:40 localhost sshd[18038]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249 
+Mar 13 18:08:42 localhost sshd[18038]: Failed password for invalid user postgres from 194.93.2.249 port 44656 ssh2
+Mar 13 18:08:44 localhost sshd[18038]: Connection closed by invalid user postgres 194.93.2.249 port 44656 [preauth]
+Mar 13 18:08:50 localhost sshd[18041]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:08:52 localhost sshd[18041]: Failed password for root from 146.59.236.77 port 50326 ssh2
+Mar 13 18:08:53 localhost sshd[18041]: Received disconnect from 146.59.236.77 port 50326:11: Bye Bye [preauth]
+Mar 13 18:08:53 localhost sshd[18041]: Disconnected from authenticating user root 146.59.236.77 port 50326 [preauth]
+Mar 13 18:08:54 localhost sshd[18043]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:08:56 localhost sshd[18043]: Failed password for root from 14.34.157.138 port 47982 ssh2
+Mar 13 18:08:57 localhost sshd[18045]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:08:57 localhost sshd[18043]: Received disconnect from 14.34.157.138 port 47982:11: Bye Bye [preauth]
+Mar 13 18:08:57 localhost sshd[18043]: Disconnected from authenticating user root 14.34.157.138 port 47982 [preauth]
+Mar 13 18:08:59 localhost sshd[18045]: Failed password for root from 27.254.149.199 port 59162 ssh2
+Mar 13 18:09:00 localhost sshd[18045]: Received disconnect from 27.254.149.199 port 59162:11: Bye Bye [preauth]
+Mar 13 18:09:00 localhost sshd[18045]: Disconnected from authenticating user root 27.254.149.199 port 59162 [preauth]
+Mar 13 18:09:01 localhost sshd[18047]: error: kex_exchange_identification: Connection closed by remote host
+Mar 13 18:09:01 localhost sshd[18047]: Connection closed by 137.74.181.255 port 35731
+Mar 13 18:09:11 localhost sshd[18048]: error: kex_exchange_identification: Connection closed by remote host
+Mar 13 18:09:11 localhost sshd[18048]: Connection closed by 137.74.181.244 port 53989
+Mar 13 18:09:53 localhost sshd[18049]: Invalid user jenkins from 194.93.2.249 port 43480
+Mar 13 18:09:54 localhost sshd[18049]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:09:54 localhost sshd[18049]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249 
+Mar 13 18:09:54 localhost sshd[18051]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:09:56 localhost sshd[18049]: Failed password for invalid user jenkins from 194.93.2.249 port 43480 ssh2
+Mar 13 18:09:56 localhost sshd[18051]: Failed password for root from 146.59.236.77 port 52354 ssh2
+Mar 13 18:09:57 localhost sshd[18051]: Received disconnect from 146.59.236.77 port 52354:11: Bye Bye [preauth]
+Mar 13 18:09:57 localhost sshd[18051]: Disconnected from authenticating user root 146.59.236.77 port 52354 [preauth]
+Mar 13 18:09:58 localhost sshd[18049]: Connection closed by invalid user jenkins 194.93.2.249 port 43480 [preauth]
+Mar 13 18:10:12 localhost sshd[18053]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:10:14 localhost sshd[18053]: Failed password for root from 14.34.157.138 port 43396 ssh2
+Mar 13 18:10:15 localhost sshd[18053]: Received disconnect from 14.34.157.138 port 43396:11: Bye Bye [preauth]
+Mar 13 18:10:15 localhost sshd[18053]: Disconnected from authenticating user root 14.34.157.138 port 43396 [preauth]
+Mar 13 18:10:17 localhost sshd[18055]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:10:19 localhost sshd[18055]: Failed password for root from 27.254.149.199 port 54462 ssh2
+Mar 13 18:10:20 localhost sshd[18055]: Received disconnect from 27.254.149.199 port 54462:11: Bye Bye [preauth]
+Mar 13 18:10:20 localhost sshd[18055]: Disconnected from authenticating user root 27.254.149.199 port 54462 [preauth]
+Mar 13 18:10:27 localhost sshd[18060]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=68.183.46.195  user=root
+Mar 13 18:10:29 localhost sshd[18060]: Failed password for root from 68.183.46.195 port 47084 ssh2
+Mar 13 18:10:30 localhost sshd[18060]: Connection closed by authenticating user root 68.183.46.195 port 47084 [preauth]
+Mar 13 18:10:56 localhost sshd[18064]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:10:56 localhost sshd[18062]: Accepted password for root from 20.49.61.104 port 25792 ssh2
+Mar 13 18:10:56 localhost sshd[18062]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:10:56 localhost systemd-logind[607]: New session 433 of user root.
+Mar 13 18:10:56 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:10:57 localhost sshd[18064]: Failed password for root from 146.59.236.77 port 35012 ssh2
+Mar 13 18:10:58 localhost sshd[18064]: Received disconnect from 146.59.236.77 port 35012:11: Bye Bye [preauth]
+Mar 13 18:10:58 localhost sshd[18064]: Disconnected from authenticating user root 146.59.236.77 port 35012 [preauth]
+Mar 13 18:11:15 localhost sshd[18062]: Received disconnect from 20.49.61.104 port 25792:11: disconnected by user
+Mar 13 18:11:15 localhost sshd[18062]: Disconnected from user root 20.49.61.104 port 25792
+Mar 13 18:11:15 localhost sshd[18062]: pam_unix(sshd:session): session closed for user root
+Mar 13 18:11:15 localhost systemd-logind[607]: Session 433 logged out. Waiting for processes to exit.
+Mar 13 18:11:15 localhost systemd-logind[607]: Removed session 433.
+Mar 13 18:11:15 localhost sshd[18132]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249  user=root
+Mar 13 18:11:17 localhost sshd[18132]: Failed password for root from 194.93.2.249 port 33576 ssh2
+Mar 13 18:11:19 localhost sshd[18132]: Connection closed by authenticating user root 194.93.2.249 port 33576 [preauth]
+Mar 13 18:11:28 localhost sshd[18135]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:11:30 localhost sshd[18135]: Failed password for root from 14.34.157.138 port 38808 ssh2
+Mar 13 18:11:31 localhost sshd[18135]: Received disconnect from 14.34.157.138 port 38808:11: Bye Bye [preauth]
+Mar 13 18:11:31 localhost sshd[18135]: Disconnected from authenticating user root 14.34.157.138 port 38808 [preauth]
+Mar 13 18:11:37 localhost sshd[18137]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:11:39 localhost sshd[18137]: Failed password for root from 27.254.149.199 port 49760 ssh2
+Mar 13 18:11:39 localhost sshd[18139]: Connection closed by authenticating user root 172.183.79.90 port 25792 [preauth]
+Mar 13 18:11:40 localhost sshd[18137]: Received disconnect from 27.254.149.199 port 49760:11: Bye Bye [preauth]
+Mar 13 18:11:40 localhost sshd[18137]: Disconnected from authenticating user root 27.254.149.199 port 49760 [preauth]
+Mar 13 18:11:53 localhost sshd[18141]: Invalid user ubuntu from 142.93.157.230 port 44382
+Mar 13 18:11:53 localhost sshd[18141]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:11:53 localhost sshd[18141]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=142.93.157.230 
+Mar 13 18:11:53 localhost sshd[18143]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:11:55 localhost sshd[18141]: Failed password for invalid user ubuntu from 142.93.157.230 port 44382 ssh2
+Mar 13 18:11:56 localhost sshd[18143]: Failed password for root from 146.59.236.77 port 52492 ssh2
+Mar 13 18:11:56 localhost sshd[18143]: Received disconnect from 146.59.236.77 port 52492:11: Bye Bye [preauth]
+Mar 13 18:11:56 localhost sshd[18143]: Disconnected from authenticating user root 146.59.236.77 port 52492 [preauth]
+Mar 13 18:11:56 localhost sshd[18141]: Connection closed by invalid user ubuntu 142.93.157.230 port 44382 [preauth]
+Mar 13 18:12:03 localhost sshd[18145]: Accepted password for root from 20.42.17.119 port 59264 ssh2
+Mar 13 18:12:03 localhost sshd[18145]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:12:03 localhost systemd-logind[607]: New session 435 of user root.
+Mar 13 18:12:03 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:12:05 localhost sshd[18145]: Received disconnect from 20.42.17.119 port 59264:11: disconnected by user
+Mar 13 18:12:05 localhost sshd[18145]: Disconnected from user root 20.42.17.119 port 59264
+Mar 13 18:12:05 localhost sshd[18145]: pam_unix(sshd:session): session closed for user root
+Mar 13 18:12:05 localhost systemd-logind[607]: Session 435 logged out. Waiting for processes to exit.
+Mar 13 18:12:05 localhost systemd-logind[607]: Removed session 435.
+Mar 13 18:12:06 localhost sshd[18215]: Accepted password for root from 20.42.17.119 port 59265 ssh2
+Mar 13 18:12:06 localhost sshd[18215]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:12:06 localhost systemd-logind[607]: New session 437 of user root.
+Mar 13 18:12:08 localhost sshd[18215]: Received disconnect from 20.42.17.119 port 59265:11: disconnected by user
+Mar 13 18:12:08 localhost sshd[18215]: Disconnected from user root 20.42.17.119 port 59265
+Mar 13 18:12:08 localhost sshd[18215]: pam_unix(sshd:session): session closed for user root
+Mar 13 18:12:09 localhost systemd-logind[607]: Session 437 logged out. Waiting for processes to exit.
+Mar 13 18:12:09 localhost systemd-logind[607]: Removed session 437.
+Mar 13 18:12:26 localhost sshd[18266]: Connection closed by 45.79.181.104 port 30716 [preauth]
+Mar 13 18:12:27 localhost sshd[18268]: Connection closed by 45.79.181.104 port 30726 [preauth]
+Mar 13 18:12:28 localhost sshd[18270]: Connection closed by 45.79.181.104 port 30728 [preauth]
+Mar 13 18:12:42 localhost sshd[18272]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:12:44 localhost sshd[18272]: Failed password for root from 14.34.157.138 port 34226 ssh2
+Mar 13 18:12:45 localhost sshd[18272]: Received disconnect from 14.34.157.138 port 34226:11: Bye Bye [preauth]
+Mar 13 18:12:45 localhost sshd[18272]: Disconnected from authenticating user root 14.34.157.138 port 34226 [preauth]
+Mar 13 18:12:52 localhost sshd[18274]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:12:54 localhost sshd[18274]: Failed password for root from 27.254.149.199 port 45058 ssh2
+Mar 13 18:12:54 localhost sshd[18276]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:12:55 localhost sshd[18274]: Received disconnect from 27.254.149.199 port 45058:11: Bye Bye [preauth]
+Mar 13 18:12:55 localhost sshd[18274]: Disconnected from authenticating user root 27.254.149.199 port 45058 [preauth]
+Mar 13 18:12:57 localhost sshd[18276]: Failed password for root from 146.59.236.77 port 34692 ssh2
+Mar 13 18:12:57 localhost sshd[18276]: Received disconnect from 146.59.236.77 port 34692:11: Bye Bye [preauth]
+Mar 13 18:12:57 localhost sshd[18276]: Disconnected from authenticating user root 146.59.236.77 port 34692 [preauth]
+Mar 13 18:13:54 localhost sshd[18281]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:13:55 localhost sshd[18279]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:13:56 localhost sshd[18281]: Failed password for root from 146.59.236.77 port 49084 ssh2
+Mar 13 18:13:57 localhost sshd[18281]: Received disconnect from 146.59.236.77 port 49084:11: Bye Bye [preauth]
+Mar 13 18:13:57 localhost sshd[18281]: Disconnected from authenticating user root 146.59.236.77 port 49084 [preauth]
+Mar 13 18:13:57 localhost sshd[18279]: Failed password for root from 14.34.157.138 port 57870 ssh2
+Mar 13 18:13:58 localhost sshd[18279]: Received disconnect from 14.34.157.138 port 57870:11: Bye Bye [preauth]
+Mar 13 18:13:58 localhost sshd[18279]: Disconnected from authenticating user root 14.34.157.138 port 57870 [preauth]
+Mar 13 18:14:06 localhost sshd[18283]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:14:09 localhost sshd[18283]: Failed password for root from 27.254.149.199 port 40352 ssh2
+Mar 13 18:14:09 localhost sshd[18283]: Received disconnect from 27.254.149.199 port 40352:11: Bye Bye [preauth]
+Mar 13 18:14:09 localhost sshd[18283]: Disconnected from authenticating user root 27.254.149.199 port 40352 [preauth]
+Mar 13 18:14:14 localhost sshd[18285]: Invalid user weblogic from 194.93.2.249 port 47798
+Mar 13 18:14:14 localhost sshd[18285]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:14:14 localhost sshd[18285]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249 
+Mar 13 18:14:16 localhost sshd[18285]: Failed password for invalid user weblogic from 194.93.2.249 port 47798 ssh2
+Mar 13 18:14:19 localhost sshd[18285]: Connection closed by invalid user weblogic 194.93.2.249 port 47798 [preauth]
+Mar 13 18:14:55 localhost sshd[18287]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:14:57 localhost sshd[18287]: Failed password for root from 146.59.236.77 port 51298 ssh2
+Mar 13 18:14:57 localhost sshd[18287]: Received disconnect from 146.59.236.77 port 51298:11: Bye Bye [preauth]
+Mar 13 18:14:57 localhost sshd[18287]: Disconnected from authenticating user root 146.59.236.77 port 51298 [preauth]
+Mar 13 18:15:01 localhost CRON[18289]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:15:01 localhost CRON[18289]: pam_unix(cron:session): session closed for user root
+Mar 13 18:15:08 localhost sshd[18294]: error: kex_exchange_identification: Connection closed by remote host
+Mar 13 18:15:08 localhost sshd[18294]: Connection closed by 159.203.1.27 port 50848
+Mar 13 18:15:09 localhost sshd[18295]: error: kex_exchange_identification: Connection closed by remote host
+Mar 13 18:15:09 localhost sshd[18295]: Connection closed by 91.196.152.108 port 54111
+Mar 13 18:15:09 localhost sshd[18296]: Unable to negotiate with 91.196.152.111 port 48235: no matching host key type found. Their offer: ssh-rsa,ssh-dss [preauth]
+Mar 13 18:15:10 localhost sshd[18292]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:15:12 localhost sshd[18292]: Failed password for root from 14.34.157.138 port 53286 ssh2
+Mar 13 18:15:13 localhost sshd[18292]: Received disconnect from 14.34.157.138 port 53286:11: Bye Bye [preauth]
+Mar 13 18:15:13 localhost sshd[18292]: Disconnected from authenticating user root 14.34.157.138 port 53286 [preauth]
+Mar 13 18:15:22 localhost sshd[18298]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:15:24 localhost sshd[18298]: Failed password for root from 27.254.149.199 port 35652 ssh2
+Mar 13 18:15:25 localhost sshd[18298]: Received disconnect from 27.254.149.199 port 35652:11: Bye Bye [preauth]
+Mar 13 18:15:25 localhost sshd[18298]: Disconnected from authenticating user root 27.254.149.199 port 35652 [preauth]
+Mar 13 18:15:54 localhost sshd[18300]: Invalid user centos from 194.93.2.249 port 52950
+Mar 13 18:15:57 localhost sshd[18300]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:15:57 localhost sshd[18300]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249 
+Mar 13 18:15:58 localhost sshd[18302]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:15:59 localhost sshd[18300]: Failed password for invalid user centos from 194.93.2.249 port 52950 ssh2
+Mar 13 18:16:00 localhost sshd[18300]: Connection closed by invalid user centos 194.93.2.249 port 52950 [preauth]
+Mar 13 18:16:01 localhost sshd[18302]: Failed password for root from 146.59.236.77 port 45510 ssh2
+Mar 13 18:16:01 localhost sshd[18302]: Received disconnect from 146.59.236.77 port 45510:11: Bye Bye [preauth]
+Mar 13 18:16:01 localhost sshd[18302]: Disconnected from authenticating user root 146.59.236.77 port 45510 [preauth]
+Mar 13 18:16:22 localhost sshd[18304]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:16:24 localhost sshd[18304]: Failed password for root from 14.34.157.138 port 48704 ssh2
+Mar 13 18:16:25 localhost sshd[18304]: Received disconnect from 14.34.157.138 port 48704:11: Bye Bye [preauth]
+Mar 13 18:16:25 localhost sshd[18304]: Disconnected from authenticating user root 14.34.157.138 port 48704 [preauth]
+Mar 13 18:16:37 localhost sshd[18306]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:16:39 localhost sshd[18306]: Failed password for root from 27.254.149.199 port 59178 ssh2
+Mar 13 18:16:40 localhost sshd[18306]: Received disconnect from 27.254.149.199 port 59178:11: Bye Bye [preauth]
+Mar 13 18:16:40 localhost sshd[18306]: Disconnected from authenticating user root 27.254.149.199 port 59178 [preauth]
+Mar 13 18:16:46 localhost sshd[18308]: Invalid user steam from 194.93.2.249 port 47436
+Mar 13 18:16:46 localhost sshd[18308]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:16:46 localhost sshd[18308]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249 
+Mar 13 18:16:48 localhost sshd[18308]: Failed password for invalid user steam from 194.93.2.249 port 47436 ssh2
+Mar 13 18:16:49 localhost sshd[18310]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=68.183.46.195  user=root
+Mar 13 18:16:50 localhost sshd[18308]: Connection closed by invalid user steam 194.93.2.249 port 47436 [preauth]
+Mar 13 18:16:51 localhost sshd[18310]: Failed password for root from 68.183.46.195 port 52154 ssh2
+Mar 13 18:16:52 localhost sshd[18310]: Connection closed by authenticating user root 68.183.46.195 port 52154 [preauth]
+Mar 13 18:16:57 localhost sshd[18312]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:16:59 localhost sshd[18312]: Failed password for root from 146.59.236.77 port 52494 ssh2
+Mar 13 18:16:59 localhost sshd[18312]: Received disconnect from 146.59.236.77 port 52494:11: Bye Bye [preauth]
+Mar 13 18:16:59 localhost sshd[18312]: Disconnected from authenticating user root 146.59.236.77 port 52494 [preauth]
+Mar 13 18:17:01 localhost CRON[18314]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:17:01 localhost CRON[18314]: pam_unix(cron:session): session closed for user root
+Mar 13 18:17:20 localhost sshd[18317]: Invalid user ubuntu from 142.93.157.230 port 49062
+Mar 13 18:17:20 localhost sshd[18317]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:17:20 localhost sshd[18317]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=142.93.157.230 
+Mar 13 18:17:22 localhost sshd[18317]: Failed password for invalid user ubuntu from 142.93.157.230 port 49062 ssh2
+Mar 13 18:17:24 localhost sshd[18317]: Connection closed by invalid user ubuntu 142.93.157.230 port 49062 [preauth]
+Mar 13 18:17:32 localhost sshd[18320]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:17:34 localhost sshd[18320]: Failed password for root from 14.34.157.138 port 44118 ssh2
+Mar 13 18:17:35 localhost sshd[18320]: Received disconnect from 14.34.157.138 port 44118:11: Bye Bye [preauth]
+Mar 13 18:17:35 localhost sshd[18320]: Disconnected from authenticating user root 14.34.157.138 port 44118 [preauth]
+Mar 13 18:17:51 localhost sshd[18322]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:17:53 localhost sshd[18322]: Failed password for root from 27.254.149.199 port 54474 ssh2
+Mar 13 18:17:54 localhost sshd[18322]: Received disconnect from 27.254.149.199 port 54474:11: Bye Bye [preauth]
+Mar 13 18:17:54 localhost sshd[18322]: Disconnected from authenticating user root 27.254.149.199 port 54474 [preauth]
+Mar 13 18:17:55 localhost sshd[18324]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:17:57 localhost sshd[18324]: Failed password for root from 146.59.236.77 port 35370 ssh2
+Mar 13 18:17:57 localhost sshd[18324]: Received disconnect from 146.59.236.77 port 35370:11: Bye Bye [preauth]
+Mar 13 18:17:57 localhost sshd[18324]: Disconnected from authenticating user root 146.59.236.77 port 35370 [preauth]
+Mar 13 18:18:42 localhost sshd[18326]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:18:44 localhost sshd[18326]: Failed password for root from 14.34.157.138 port 39536 ssh2
+Mar 13 18:18:45 localhost sshd[18326]: Received disconnect from 14.34.157.138 port 39536:11: Bye Bye [preauth]
+Mar 13 18:18:45 localhost sshd[18326]: Disconnected from authenticating user root 14.34.157.138 port 39536 [preauth]
+Mar 13 18:18:52 localhost sshd[18328]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:18:54 localhost sshd[18328]: Failed password for root from 146.59.236.77 port 36582 ssh2
+Mar 13 18:18:55 localhost sshd[18328]: Received disconnect from 146.59.236.77 port 36582:11: Bye Bye [preauth]
+Mar 13 18:18:55 localhost sshd[18328]: Disconnected from authenticating user root 146.59.236.77 port 36582 [preauth]
+Mar 13 18:19:06 localhost sshd[18331]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:19:09 localhost sshd[18331]: Failed password for root from 27.254.149.199 port 49770 ssh2
+Mar 13 18:19:09 localhost sshd[18331]: Received disconnect from 27.254.149.199 port 49770:11: Bye Bye [preauth]
+Mar 13 18:19:09 localhost sshd[18331]: Disconnected from authenticating user root 27.254.149.199 port 49770 [preauth]
+Mar 13 18:19:51 localhost sshd[18333]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:19:53 localhost sshd[18333]: Failed password for root from 146.59.236.77 port 49806 ssh2
+Mar 13 18:19:54 localhost sshd[18333]: Received disconnect from 146.59.236.77 port 49806:11: Bye Bye [preauth]
+Mar 13 18:19:54 localhost sshd[18333]: Disconnected from authenticating user root 146.59.236.77 port 49806 [preauth]
+Mar 13 18:19:54 localhost sshd[18335]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:19:57 localhost sshd[18335]: Failed password for root from 14.34.157.138 port 34950 ssh2
+Mar 13 18:19:57 localhost sshd[18335]: Received disconnect from 14.34.157.138 port 34950:11: Bye Bye [preauth]
+Mar 13 18:19:57 localhost sshd[18335]: Disconnected from authenticating user root 14.34.157.138 port 34950 [preauth]
+Mar 13 18:20:22 localhost sshd[18338]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:20:24 localhost sshd[18338]: Failed password for root from 27.254.149.199 port 45068 ssh2
+Mar 13 18:20:24 localhost sshd[18338]: Received disconnect from 27.254.149.199 port 45068:11: Bye Bye [preauth]
+Mar 13 18:20:24 localhost sshd[18338]: Disconnected from authenticating user root 27.254.149.199 port 45068 [preauth]
+Mar 13 18:20:25 localhost sshd[18337]: Invalid user test from 194.93.2.249 port 37086
+Mar 13 18:20:26 localhost sshd[18337]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:20:26 localhost sshd[18337]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249 
+Mar 13 18:20:28 localhost sshd[18337]: Failed password for invalid user test from 194.93.2.249 port 37086 ssh2
+Mar 13 18:20:30 localhost sshd[18337]: Connection closed by invalid user test 194.93.2.249 port 37086 [preauth]
+Mar 13 18:20:39 localhost sshd[18344]: Invalid user solv from 159.203.1.27 port 54446
+Mar 13 18:20:39 localhost sshd[18344]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:20:39 localhost sshd[18344]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=159.203.1.27 
+Mar 13 18:20:41 localhost sshd[18344]: Failed password for invalid user solv from 159.203.1.27 port 54446 ssh2
+Mar 13 18:20:43 localhost sshd[18344]: Connection closed by invalid user solv 159.203.1.27 port 54446 [preauth]
+Mar 13 18:20:52 localhost sshd[18346]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:20:55 localhost sshd[18346]: Failed password for root from 146.59.236.77 port 58952 ssh2
+Mar 13 18:20:55 localhost sshd[18346]: Received disconnect from 146.59.236.77 port 58952:11: Bye Bye [preauth]
+Mar 13 18:20:55 localhost sshd[18346]: Disconnected from authenticating user root 146.59.236.77 port 58952 [preauth]
+Mar 13 18:21:09 localhost sshd[18348]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:21:12 localhost sshd[18348]: Failed password for root from 14.34.157.138 port 58598 ssh2
+Mar 13 18:21:12 localhost sshd[18348]: Received disconnect from 14.34.157.138 port 58598:11: Bye Bye [preauth]
+Mar 13 18:21:12 localhost sshd[18348]: Disconnected from authenticating user root 14.34.157.138 port 58598 [preauth]
+Mar 13 18:21:42 localhost sshd[18350]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:21:44 localhost sshd[18350]: Failed password for root from 27.254.149.199 port 40368 ssh2
+Mar 13 18:21:45 localhost sshd[18350]: Received disconnect from 27.254.149.199 port 40368:11: Bye Bye [preauth]
+Mar 13 18:21:45 localhost sshd[18350]: Disconnected from authenticating user root 27.254.149.199 port 40368 [preauth]
+Mar 13 18:21:58 localhost sshd[18352]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:22:01 localhost sshd[18352]: Failed password for root from 146.59.236.77 port 37132 ssh2
+Mar 13 18:22:01 localhost sshd[18352]: Received disconnect from 146.59.236.77 port 37132:11: Bye Bye [preauth]
+Mar 13 18:22:01 localhost sshd[18352]: Disconnected from authenticating user root 146.59.236.77 port 37132 [preauth]
+Mar 13 18:22:26 localhost sshd[18354]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:22:27 localhost sshd[18354]: Failed password for root from 14.34.157.138 port 54016 ssh2
+Mar 13 18:22:29 localhost sshd[18354]: Received disconnect from 14.34.157.138 port 54016:11: Bye Bye [preauth]
+Mar 13 18:22:29 localhost sshd[18354]: Disconnected from authenticating user root 14.34.157.138 port 54016 [preauth]
+Mar 13 18:22:45 localhost sshd[18357]: Invalid user ubuntu from 142.93.157.230 port 56800
+Mar 13 18:22:46 localhost sshd[18357]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:22:46 localhost sshd[18357]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=142.93.157.230 
+Mar 13 18:22:48 localhost sshd[18357]: Failed password for invalid user ubuntu from 142.93.157.230 port 56800 ssh2
+Mar 13 18:22:49 localhost sshd[18357]: Connection closed by invalid user ubuntu 142.93.157.230 port 56800 [preauth]
+Mar 13 18:22:59 localhost sshd[18360]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:23:00 localhost sshd[18362]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:23:01 localhost sshd[18360]: Failed password for root from 27.254.149.199 port 35664 ssh2
+Mar 13 18:23:02 localhost sshd[18360]: Received disconnect from 27.254.149.199 port 35664:11: Bye Bye [preauth]
+Mar 13 18:23:02 localhost sshd[18360]: Disconnected from authenticating user root 27.254.149.199 port 35664 [preauth]
+Mar 13 18:23:02 localhost sshd[18362]: Failed password for root from 146.59.236.77 port 51946 ssh2
+Mar 13 18:23:03 localhost sshd[18362]: Received disconnect from 146.59.236.77 port 51946:11: Bye Bye [preauth]
+Mar 13 18:23:03 localhost sshd[18362]: Disconnected from authenticating user root 146.59.236.77 port 51946 [preauth]
+Mar 13 18:23:08 localhost sshd[18356]: Invalid user centos from 194.93.2.249 port 35918
+Mar 13 18:23:11 localhost sshd[18356]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:23:11 localhost sshd[18356]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249 
+Mar 13 18:23:12 localhost sshd[18364]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=68.183.46.195  user=root
+Mar 13 18:23:13 localhost sshd[18356]: Failed password for invalid user centos from 194.93.2.249 port 35918 ssh2
+Mar 13 18:23:13 localhost sshd[18364]: Failed password for root from 68.183.46.195 port 53238 ssh2
+Mar 13 18:23:15 localhost sshd[18364]: Connection closed by authenticating user root 68.183.46.195 port 53238 [preauth]
+Mar 13 18:23:17 localhost sshd[18356]: Connection closed by invalid user centos 194.93.2.249 port 35918 [preauth]
+Mar 13 18:23:42 localhost sshd[18366]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:23:43 localhost sshd[18366]: Failed password for root from 14.34.157.138 port 49434 ssh2
+Mar 13 18:23:45 localhost sshd[18366]: Received disconnect from 14.34.157.138 port 49434:11: Bye Bye [preauth]
+Mar 13 18:23:45 localhost sshd[18366]: Disconnected from authenticating user root 14.34.157.138 port 49434 [preauth]
+Mar 13 18:24:01 localhost sshd[18369]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:24:02 localhost sshd[18369]: Failed password for root from 146.59.236.77 port 50584 ssh2
+Mar 13 18:24:03 localhost sshd[18369]: Received disconnect from 146.59.236.77 port 50584:11: Bye Bye [preauth]
+Mar 13 18:24:03 localhost sshd[18369]: Disconnected from authenticating user root 146.59.236.77 port 50584 [preauth]
+Mar 13 18:24:16 localhost sshd[18371]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:24:18 localhost sshd[18371]: Failed password for root from 27.254.149.199 port 59196 ssh2
+Mar 13 18:24:19 localhost sshd[18371]: Received disconnect from 27.254.149.199 port 59196:11: Bye Bye [preauth]
+Mar 13 18:24:19 localhost sshd[18371]: Disconnected from authenticating user root 27.254.149.199 port 59196 [preauth]
+Mar 13 18:24:57 localhost sshd[18373]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:24:59 localhost sshd[18373]: Failed password for root from 14.34.157.138 port 44852 ssh2
+Mar 13 18:25:00 localhost sshd[18373]: Received disconnect from 14.34.157.138 port 44852:11: Bye Bye [preauth]
+Mar 13 18:25:00 localhost sshd[18373]: Disconnected from authenticating user root 14.34.157.138 port 44852 [preauth]
+Mar 13 18:25:01 localhost sshd[18375]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:25:01 localhost CRON[18377]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:25:01 localhost CRON[18377]: pam_unix(cron:session): session closed for user root
+Mar 13 18:25:03 localhost sshd[18375]: Failed password for root from 146.59.236.77 port 46250 ssh2
+Mar 13 18:25:04 localhost sshd[18375]: Received disconnect from 146.59.236.77 port 46250:11: Bye Bye [preauth]
+Mar 13 18:25:04 localhost sshd[18375]: Disconnected from authenticating user root 146.59.236.77 port 46250 [preauth]
+Mar 13 18:25:35 localhost sshd[18381]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:25:38 localhost sshd[18381]: Failed password for root from 27.254.149.199 port 54492 ssh2
+Mar 13 18:25:38 localhost sshd[18381]: Received disconnect from 27.254.149.199 port 54492:11: Bye Bye [preauth]
+Mar 13 18:25:38 localhost sshd[18381]: Disconnected from authenticating user root 27.254.149.199 port 54492 [preauth]
+Mar 13 18:25:42 localhost sshd[18380]: Invalid user mysql from 194.93.2.249 port 43182
+Mar 13 18:25:44 localhost sshd[18380]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:25:44 localhost sshd[18380]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249 
+Mar 13 18:25:46 localhost sshd[18380]: Failed password for invalid user mysql from 194.93.2.249 port 43182 ssh2
+Mar 13 18:25:47 localhost sshd[18380]: Connection closed by invalid user mysql 194.93.2.249 port 43182 [preauth]
+Mar 13 18:26:04 localhost sshd[18384]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:26:06 localhost sshd[18384]: Failed password for root from 146.59.236.77 port 43606 ssh2
+Mar 13 18:26:06 localhost sshd[18384]: Received disconnect from 146.59.236.77 port 43606:11: Bye Bye [preauth]
+Mar 13 18:26:06 localhost sshd[18384]: Disconnected from authenticating user root 146.59.236.77 port 43606 [preauth]
+Mar 13 18:26:14 localhost sshd[18387]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:26:16 localhost sshd[18387]: Failed password for root from 14.34.157.138 port 40274 ssh2
+Mar 13 18:26:17 localhost sshd[18387]: Received disconnect from 14.34.157.138 port 40274:11: Bye Bye [preauth]
+Mar 13 18:26:17 localhost sshd[18387]: Disconnected from authenticating user root 14.34.157.138 port 40274 [preauth]
+Mar 13 18:26:29 localhost sshd[18389]: Accepted password for root from 74.249.7.178 port 19600 ssh2
+Mar 13 18:26:29 localhost sshd[18389]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:26:29 localhost systemd-logind[607]: New session 441 of user root.
+Mar 13 18:26:29 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:26:47 localhost sshd[18389]: Received disconnect from 74.249.7.178 port 19600:11: disconnected by user
+Mar 13 18:26:47 localhost sshd[18389]: Disconnected from user root 74.249.7.178 port 19600
+Mar 13 18:26:47 localhost sshd[18389]: pam_unix(sshd:session): session closed for user root
+Mar 13 18:26:47 localhost systemd-logind[607]: Session 441 logged out. Waiting for processes to exit.
+Mar 13 18:26:47 localhost systemd-logind[607]: Removed session 441.
+Mar 13 18:26:54 localhost sshd[18459]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=27.254.149.199  user=root
+Mar 13 18:26:56 localhost sshd[18459]: Failed password for root from 27.254.149.199 port 49790 ssh2
+Mar 13 18:26:58 localhost sshd[18459]: Received disconnect from 27.254.149.199 port 49790:11: Bye Bye [preauth]
+Mar 13 18:26:58 localhost sshd[18459]: Disconnected from authenticating user root 27.254.149.199 port 49790 [preauth]
+Mar 13 18:27:04 localhost sshd[18463]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:27:07 localhost sshd[18463]: Failed password for root from 146.59.236.77 port 58724 ssh2
+Mar 13 18:27:07 localhost sshd[18463]: Received disconnect from 146.59.236.77 port 58724:11: Bye Bye [preauth]
+Mar 13 18:27:07 localhost sshd[18463]: Disconnected from authenticating user root 146.59.236.77 port 58724 [preauth]
+Mar 13 18:27:12 localhost sshd[18462]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=194.93.2.249  user=root
+Mar 13 18:27:14 localhost sshd[18462]: Failed password for root from 194.93.2.249 port 44384 ssh2
+Mar 13 18:27:15 localhost sshd[18462]: Connection closed by authenticating user root 194.93.2.249 port 44384 [preauth]
+Mar 13 18:27:33 localhost sshd[18466]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.34.157.138  user=root
+Mar 13 18:27:35 localhost sshd[18466]: Failed password for root from 14.34.157.138 port 35692 ssh2
+Mar 13 18:27:36 localhost sshd[18466]: Received disconnect from 14.34.157.138 port 35692:11: Bye Bye [preauth]
+Mar 13 18:27:36 localhost sshd[18466]: Disconnected from authenticating user root 14.34.157.138 port 35692 [preauth]
+Mar 13 18:28:05 localhost sshd[18468]: Accepted password for root from 20.172.29.44 port 25408 ssh2
+Mar 13 18:28:05 localhost sshd[18468]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:28:05 localhost systemd-logind[607]: New session 443 of user root.
+Mar 13 18:28:05 localhost systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 13 18:28:06 localhost sshd[18536]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=146.59.236.77  user=root
+Mar 13 18:28:08 localhost sshd[18536]: Failed password for root from 146.59.236.77 port 48460 ssh2
+Mar 13 18:28:09 localhost sshd[18536]: Received disconnect from 146.59.236.77 port 48460:11: Bye Bye [preauth]
+Mar 13 18:28:09 localhost sshd[18536]: Disconnected from authenticating user root 146.59.236.77 port 48460 [preauth]
+Mar 13 18:28:11 localhost sshd[18538]: Invalid user ubuntu from 142.93.157.230 port 41614
+Mar 13 18:28:11 localhost sshd[18538]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 18:28:11 localhost sshd[18538]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=142.93.157.230 
